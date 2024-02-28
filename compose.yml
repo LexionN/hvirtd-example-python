@@ -29,7 +29,7 @@ services:
     image: mysql:8
     container_name: db_mysql
     restart: on-failure
-    envorement:
+    enviroment:
       - MYSQL_ROOT_HOST=%
     networks:
       backend:
